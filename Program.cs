@@ -26,6 +26,13 @@ internal static class Program
                 Position = new(0, 500),
                 Size = new(500, 50)
             });
+        Game.AddSoild(
+            new Solid
+            {
+                color = Color.Red,
+                Position = new(300, 250),
+                Size = new(50, 200)
+            });
 
         window.Run();
     }

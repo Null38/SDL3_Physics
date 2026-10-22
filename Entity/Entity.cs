@@ -37,7 +37,7 @@ public abstract class Entity
         {
             if (newPos.X          < entity.Position.X + entity.Size.X &&
                 newPos.X + Size.X > entity.Position.X &&
-                newPos.Y          < entity.Position.Y + entity.Size.X &&
+                newPos.Y          < entity.Position.Y + entity.Size.Y &&
                 newPos.Y + Size.X > entity.Position.Y )
                 return true;
         }
